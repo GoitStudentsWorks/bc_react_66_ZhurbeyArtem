@@ -11,6 +11,7 @@ export default defineConfig(() => {
     //   outDir: "./dist", // the output directory (dist folder) (it's also the path from index.html to the dist folder)
     // },
     plugins: [react(), svgr()],
+    base: "/bc_react_66_ZhurbeyArtem/",
     resolve: {
       alias: {
         "@": new URL("src/", import.meta.url).pathname,
